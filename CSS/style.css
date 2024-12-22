@@ -152,13 +152,6 @@ a{
     gap: 30px;
     padding-left: 0;
 }
-.buttons div{
-    padding: 20px 50px;
-    border-radius: 10px;
-    color: antiquewhite;
-    cursor: pointer;
-    font-weight: bold;
-}
 .hire{
     background-color: var(--primary_color);
     border: 2px solid var(--primary_color);
