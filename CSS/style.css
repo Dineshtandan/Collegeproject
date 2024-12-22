@@ -127,14 +127,6 @@ a{
     border-right: 3px solid var(--secondary_color);
     animation: hide linear infinite 10s;
 }
-@keyframes blink{
-    0%{
-        border: none;
-    }
-    100%{
-        border-right: 3px solid var(--secondary_color);
-    }
-}
 @keyframes hide{
     0%{
         width: 0%;
@@ -170,11 +162,21 @@ a{
 .hire{
     background-color: var(--primary_color);
     border: 2px solid var(--primary_color);
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: bold;
 }
 .projects{
     background-color: transparent;
     color: var(--primary_color);
     border: 2px solid var(--primary_color);
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: bold;
 }
 .sm{
     height: 35%;
